@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edit_apps">Edit</string>
+    <string name="choose_apps">Choose apps</string>
+    <string name="library_hint_remove">Press to remove from Home · Hold for options</string>
+    <string name="network_panel">Network</string>
+    <string name="network_details">Connection details</string>
+    <string name="choose_network">Choose a network</string>
+    <string name="ip_address">IP address</string>
+    <string name="no_network_address">Not available</string>
+    <string name="picture_and_sound">Picture &amp; Sound</string>
+    <string name="picture_settings">Picture</string>
+    <string name="sound_settings">Sound</string>
+    <string name="personalize_home">Home appearance</string>
+    <string name="all_settings">All TV settings</string>
+    <string name="manage_installed_apps">Manage installed apps</string>
+    <string name="network_status">Connection</string>
+    <string name="library_hint_browse">Press to open · Hold to add or remove from Home</string>
+    <string name="library_hold_add">Hold to add to Home</string>
+    <string name="stock_home_redirect_name">CleanYourTV Home override</string>
+    <string name="stock_home_redirect_description">Opens CleanYourTV when the Google TV Home screen appears. Observes only Google TV window-change events, without reading screen contents or disabling TV system packages. Turn this service off to restore the original Home behavior.</string>
+</resources>

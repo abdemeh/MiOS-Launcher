@@ -1,0 +1,86 @@
+{
+  "com.ycngmn.notubetv": {
+    "icon": "youtube.svg",
+    "name": "YouTube",
+    "accent": "#FF0033"
+  },
+  "com.google.android.youtube.tv": {
+    "icon": "youtube.svg",
+    "name": "YouTube",
+    "accent": "#FF0033"
+  },
+  "org.smarttube.stable": {
+    "icon": "youtube.svg",
+    "accent": "#F12828"
+  },
+  "com.spotify.tv.android": {
+    "icon": "spotify.svg",
+    "accent": "#1ED760"
+  },
+  "com.netflix.ninja": {
+    "icon": "netflix.svg",
+    "accent": "#E50914"
+  },
+  "com.stremio.one": {
+    "icon": "stremio.svg",
+    "accent": "#A238FF"
+  },
+  "deezer.android.tv": {
+    "icon": "deezer.svg",
+    "accent": "#A238FF"
+  },
+  "com.kick.mobile": {
+    "icon": "kick.svg",
+    "accent": "#53FC18"
+  },
+  "com.android.vending": {
+    "icon": "googleplay.svg",
+    "accent": "#6D8BAD"
+  },
+  "ar.tvplayer.tv": {
+    "icon": "tivimate.svg",
+    "accent": "#3399E5"
+  },
+  "com.esaba.downloader": {
+    "icon": "downloader.svg",
+    "accent": "#F37623"
+  },
+  "com.nst.iptvsmarterstvbox": {
+    "icon": "smartersiptv.svg",
+    "accent": "#6A35E0"
+  },
+  "org.videolan.vlc": {
+    "icon": "vlcmediaplayer.svg",
+    "accent": "#FF8800"
+  },
+  "com.plexapp.android": {
+    "icon": "plex.svg",
+    "accent": "#E5A00D"
+  },
+  "org.jellyfin.androidtv": {
+    "icon": "jellyfin.svg",
+    "accent": "#AA5CC3"
+  },
+  "org.xbmc.kodi": {
+    "icon": "kodi.svg",
+    "accent": "#17B2E7"
+  },
+  "com.twitch.android.viewer": {
+    "icon": "twitch.svg",
+    "accent": "#9146FF"
+  },
+  "com.amazon.amazonvideo.livingroom": {
+    "icon": "primevideo.svg",
+    "accent": "#00A8E1"
+  },
+  "com.rma.speedtesttv": {
+    "icon": "speedtest.svg",
+    "name": "Speedtest",
+    "accent": "#7289DA"
+  },
+  "com.anydesk.anydeskandroid": {
+    "icon": "anydesk.svg",
+    "name": "AnyDesk",
+    "accent": "#EF443B"
+  }
+}

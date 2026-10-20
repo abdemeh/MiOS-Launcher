@@ -1,0 +1,16 @@
+<resources>
+    <string name="control_center">Control Center</string>
+    <string name="browse_apps_hint">⌄   Press Down for all apps</string>
+    <string name="edit_favorites">Edit six favorites</string>
+    <string name="home_background">Home background: %1$s</string>
+    <string name="dream_background">Screensaver background: %1$s</string>
+    <string name="background_glow">Moving colors</string>
+    <string name="background_photo">Scenic photo</string>
+    <string name="scenic_photo">Scenic photo: %1$s</string>
+    <string name="clock_date_position">Clock date: %1$s</string>
+    <string name="date_above">Above the time</string>
+    <string name="date_below">Below the time</string>
+    <string name="preview_screensaver">Preview screensaver</string>
+    <string name="system_screensaver">Screensaver and idle timing</string>
+    <string-array name="scene_names"><item>Coast</item><item>Mountains</item><item>Lake</item></string-array>
+</resources>

@@ -1,0 +1,98 @@
+[
+  {
+    "file": "netflix.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/netflix.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "youtube.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/youtube.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "spotify.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/spotify.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "primevideo.svg",
+    "status": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "stremio.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/stremio.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "deezer.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/deezer.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "googleplay.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googleplay.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "kick.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/kick.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "vlcmediaplayer.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/vlcmediaplayer.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "plex.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/plex.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "jellyfin.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/jellyfin.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "kodi.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/kodi.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "twitch.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/twitch.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "disneyplus.svg",
+    "status": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "hbo.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/hbo.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "paramountplus.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/paramountplus.svg",
+    "status": "downloaded"
+  },
+  {
+    "file": "downloader.svg",
+    "source": "downloader.svg",
+    "status": "latest user-supplied artwork, integrated",
+    "sha256": "8b9aa0190eda3b5036173490c53372bbef9948df7cb64d52b61dcecd5a0a6e48"
+  },
+  {
+    "file": "speedtest.svg",
+    "source": "speedtest.svg",
+    "status": "latest user-supplied artwork, integrated",
+    "sha256": "2efcc19e349a45beb57281146f01712e2c951e9518d0600afb39ad139d6ed880"
+  },
+  {
+    "file": "anydesk.svg",
+    "source": "anydesk.svg",
+    "status": "latest supplied replacement integrated",
+    "sha256": "f416730c022452880433832f80934e90f6d732b6fab8e277b103f3751dc091e4"
+  }
+]

@@ -1,0 +1,226 @@
+{
+  "name": "Aurora Blurred Gradient Background",
+  "version": "1.0",
+  "description": "Dark cinematic ambient background with large, softly blurred blue, purple, pink and orange light fields. No wallpaper, objects, textures or visible geometric shapes.",
+  "canvas": {
+    "referenceResolution": {
+      "width": 1920,
+      "height": 1080
+    },
+    "aspectRatio": "16:9",
+    "scaleMode": "cover",
+    "baseColor": "#090D1C",
+    "colorSpace": "sRGB"
+  },
+  "background": {
+    "type": "multi_layer_radial_gradient",
+    "baseGradient": {
+      "type": "linear",
+      "angleDegrees": 115,
+      "stops": [
+        {
+          "position": 0.0,
+          "color": "#17244B"
+        },
+        {
+          "position": 0.35,
+          "color": "#111A35"
+        },
+        {
+          "position": 0.7,
+          "color": "#191326"
+        },
+        {
+          "position": 1.0,
+          "color": "#090D1C"
+        }
+      ]
+    },
+    "lightBlobs": [
+      {
+        "id": "blue_top_left",
+        "color": "#0879CE",
+        "centerX": 0.29,
+        "centerY": 0.17,
+        "radiusX": 0.28,
+        "radiusY": 0.25,
+        "opacity": 0.78,
+        "falloff": "gaussian"
+      },
+      {
+        "id": "purple_left",
+        "color": "#7123A3",
+        "centerX": 0.04,
+        "centerY": 0.43,
+        "radiusX": 0.29,
+        "radiusY": 0.24,
+        "opacity": 0.6,
+        "falloff": "gaussian"
+      },
+      {
+        "id": "deep_blue_center",
+        "color": "#113B77",
+        "centerX": 0.37,
+        "centerY": 0.36,
+        "radiusX": 0.42,
+        "radiusY": 0.29,
+        "opacity": 0.4,
+        "falloff": "gaussian"
+      },
+      {
+        "id": "pink_top",
+        "color": "#A94377",
+        "centerX": 0.55,
+        "centerY": 0.08,
+        "radiusX": 0.23,
+        "radiusY": 0.18,
+        "opacity": 0.45,
+        "falloff": "gaussian"
+      },
+      {
+        "id": "orange_right",
+        "color": "#FF682B",
+        "centerX": 0.98,
+        "centerY": 0.32,
+        "radiusX": 0.26,
+        "radiusY": 0.29,
+        "opacity": 0.95,
+        "falloff": "gaussian"
+      },
+      {
+        "id": "warm_orange_highlight",
+        "color": "#FFA05B",
+        "centerX": 0.77,
+        "centerY": 0.28,
+        "radiusX": 0.1,
+        "radiusY": 0.17,
+        "opacity": 0.85,
+        "falloff": "gaussian"
+      },
+      {
+        "id": "magenta_right",
+        "color": "#9C315D",
+        "centerX": 0.72,
+        "centerY": 0.46,
+        "radiusX": 0.34,
+        "radiusY": 0.25,
+        "opacity": 0.38,
+        "falloff": "gaussian"
+      },
+      {
+        "id": "warm_bottom_left",
+        "color": "#8A3940",
+        "centerX": 0.06,
+        "centerY": 0.7,
+        "radiusX": 0.25,
+        "radiusY": 0.19,
+        "opacity": 0.36,
+        "falloff": "gaussian"
+      },
+      {
+        "id": "subtle_bottom_amber",
+        "color": "#B56538",
+        "centerX": 0.3,
+        "centerY": 0.87,
+        "radiusX": 0.15,
+        "radiusY": 0.11,
+        "opacity": 0.34,
+        "falloff": "gaussian"
+      }
+    ]
+  },
+  "blur": {
+    "enabled": true,
+    "type": "gaussian",
+    "radiusPxAt1080p": 110,
+    "edgeMode": "clamp",
+    "quality": "high",
+    "avoidVisibleBlobBoundaries": true
+  },
+  "overlays": {
+    "vignette": {
+      "enabled": true,
+      "color": "#050712",
+      "strength": 0.35,
+      "radius": 0.9,
+      "softness": 0.8
+    },
+    "bottomDarkening": {
+      "enabled": true,
+      "startY": 0.52,
+      "endY": 1.0,
+      "startOpacity": 0.0,
+      "endOpacity": 0.55,
+      "color": "#060912"
+    },
+    "noise": {
+      "enabled": false
+    }
+  },
+  "visualStyle": {
+    "mood": "cinematic, premium, calm, minimal",
+    "lighting": "diffused ambient colored light",
+    "contrast": "medium",
+    "saturation": "moderate",
+    "sharpness": "none",
+    "visibleShapes": false,
+    "visibleObjects": false,
+    "visibleTexture": false,
+    "dominantColors": [
+      "#0879CE",
+      "#17244B",
+      "#7123A3",
+      "#A94377",
+      "#FF682B",
+      "#090D1C"
+    ]
+  },
+  "animation": {
+    "enabled": false,
+    "optionalAmbientMotion": {
+      "enabled": false,
+      "type": "slow_gradient_drift",
+      "durationMs": 30000,
+      "movementAmplitude": 0.025,
+      "easing": "ease_in_out",
+      "loop": "reverse",
+      "fpsLimit": 30
+    }
+  },
+  "androidTV": {
+    "framework": "Jetpack Compose",
+    "recommendedImplementation": "Canvas with radial gradients",
+    "rendering": {
+      "drawBaseGradient": true,
+      "drawRadialLightLayers": true,
+      "applyBlur": true,
+      "applyVignette": true,
+      "applyBottomDarkening": true
+    },
+    "performance": {
+      "preferPreRenderedBitmap": true,
+      "cacheBackground": true,
+      "avoidRealtimeGaussianBlur": true,
+      "recommendedBitmapResolution": "1920x1080",
+      "reuseAcrossScreens": true
+    },
+    "screens": [
+      "Home",
+      "Lock Screen",
+      "Apps",
+      "Library",
+      "Settings"
+    ]
+  },
+  "constraints": [
+    "Do not use photographic wallpapers.",
+    "Do not use recognizable objects or scenery.",
+    "Do not create sharp circles or visible blob edges.",
+    "Keep the center and bottom relatively dark.",
+    "Concentrate blue and purple lighting on the left.",
+    "Concentrate orange and pink lighting on the right.",
+    "Maintain smooth transitions between colors.",
+    "Use the same background across launcher and lock screen.",
+    "Background must fill the entire TV display."
+  ]
+}

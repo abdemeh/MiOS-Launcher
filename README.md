@@ -22,9 +22,9 @@ MiOS Launcher replaces the home experience with rounded app cards, a blurred col
 
 ### Downloader code
 
-**`XXXXXXX`**
+**`9948268`**
 
-This is a placeholder. Replace it with your Downloader short code before sharing it as a working code. Until then, use the direct APK link above.
+Open Downloader on your TV, enter **9948268** in its URL/code field, and follow the download and installation prompts. You can also use the direct APK link above.
 
 ## What you get
 
